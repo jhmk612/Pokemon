@@ -1,0 +1,8 @@
+{% load bootstrap3 %}
+<form action="/" method="post">
+{% bootstrap_form form %}
+
+{% csrf_token %}
+<input type="submit" value="보고!">
+
+</form>
